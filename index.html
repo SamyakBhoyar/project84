@@ -1,5 +1,13 @@
+
+
+
+
+
+
+
+<!DOCTYPE html>
 <html>
-<head profile="http://www.yoursite.com/profile">
+<head>
 <style>
 body{
 	background-image: url("https://i.postimg.cc/KzWwHPcq/racing.gif");
@@ -8,7 +16,6 @@ body{
 }
 #myCanvas
 {
-    margin-top: 30px;
 	border-width:10px;
 	background-color: white; 
 	border-style:ridge;
@@ -18,46 +25,23 @@ h1,h4
 {
 	color: white !important;
 }
-</style>
+</style>		
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-<link rel="icon" 
-type="image/png" 
-href="http://clipart-library.com/newimages/clip-art-car-12.png">
-
+	<title>Car Rasing</title>
+    <link rel="icon" 
+    type="image/png" 
+    href="http://clipart-library.com/newimages/clip-art-car-12.png">
 </head>
-
-   
-</head>
-<body onload="add();">
-
+<body onload="add()">
 <center>
-<h1>Car Racing</h1>
+<h1>Car racing game</h1>
+<canvas id="myCanvas" width="800" height="600">
+</canvas>
 <h1>Game Status : <span id="game_status"></span></h1>
-	<canvas id="myCanvas" width="800" height="600">
-	</canvas>
-<h4>
-	<b class="text-danger">NOTE : </b> IF THE CARES ARE NOT VISIABLE PRESS ANY ARROW KEY
-</h4>
-
 </center>
-</body>
+<script src="main.js">
+</script>
+<script async src="https://drv.tw/inc/wd.js"></script></body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-https://i.postimg.cc/YqdnnNX1/car1.png
-http://clipart-library.com/newimages/clip-art-car-12.png
